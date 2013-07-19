@@ -54,7 +54,7 @@ Now let's edit that action to send back the string `'Hello World!'`.
 
 var HelloController = {
 
-	index: function(req, res) {
+    index: function(req, res) {
 		res.send('Hello World!');
 	}
 }
@@ -164,7 +164,7 @@ Join us on IRC at #sailsjs on freenode
 
 Version, Dependencies and Compatibility
 --
-#### Latest stable release: `v0.8.93`
+#### Latest stable release: `v0.9.3`
 
 Tested with node v0.8.22 and v0.10.x
 Sails is built on the rock-solid foundations of ExpressJS and Socket.io.  
